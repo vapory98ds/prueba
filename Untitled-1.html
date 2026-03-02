@@ -56,11 +56,11 @@
             letter-spacing: -0.5px;
         }
 
-        /* --- TU LOGO CON EFECTO MONEDA --- */
+        " TU LOGO CON EFECTO MONEDA "
         .coin-logo {
             width: 45px;
             height: 45px;
-            /* Perspectiva para el efecto 3D */
+            "Perspectiva para el efecto 3D "
             perspective: 1000px; 
         }
 
@@ -74,13 +74,13 @@
             filter: drop-shadow(0 4px 6px rgba(0,0,0,0.3));
         }
 
-        /* Definición de la animación de la moneda */
+        " Definición de la animación de la moneda "
         @keyframes spinCoin {
             0% {
                 transform: rotateY(0deg);
             }
             100% {
-                /* Gira 360 grados hacia la derecha sobre el eje Y */
+             "  Gira 360 grados hacia la derecha sobre el eje Y "
                 transform: rotateY(360deg);
             }
         }
@@ -96,7 +96,7 @@
             font-size: 10px; padding: 2px 5px; border-radius: 50%; font-weight: bold;
         }
 
-        /* --- HERO SECTION --- */
+         HERO SECTION 
         .hero {
             padding: 100px 8%;
             display: grid;
@@ -130,7 +130,7 @@
         .btn-primary:hover { transform: translateY(-3px); background: var(--primary); }
         .btn-secondary { background: var(--glass); color: #fff; border: 1px solid var(--border); }
 
-        /* --- COMPONENTES SIMULADOS (LOGICA CSS) --- */
+         COMPONENTES SIMULADOS (LOGICA CSS) 
         .modal-trigger { display: none; }
         .modal {
             position: fixed; top: 0; left: 0; width: 100%; height: 100%;
@@ -144,7 +144,6 @@
         .modal-trigger:checked + .modal { display: flex; }
         .close-btn { margin-top: 20px; display: block; color: var(--text-dim); font-size: 0.8rem; cursor: pointer; }
 
-        /* --- PRECIOS PREMIUM --- */
         .premium-grid {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -156,7 +155,7 @@
         }
         .tier-card:hover { border-color: var(--primary); background: rgba(255,255,255,0.05); }
 
-        /* --- DESARROLLO TEXT SECTION --- */
+       
         .dev-log {
             padding: 80px 8%;
             background: rgba(255,255,255,0.02);
@@ -257,7 +256,7 @@
         <h2>Desarrollo de la Plataforma</h2>
         <p>
             Esta página fue desarrollada bajo el concepto de <strong>Minimalismo Funcional</strong>. 
-            busqué una interfaz que no compitiera visualmente con los modelos 3D, sino que los enmarcara. 
+            Busqué una interfaz que no compitiera visualmente con los modelos 3D, sino que los enmarcara. 
             <br><br>
             <strong>Funciones implementadas:</strong><br>
             - <strong>Arquitectura Glassmorphism:</strong> Uso de filtros de desenfoque para dar profundidad.<br>
@@ -271,4 +270,5 @@
     </footer>
 
 </body>
+
 </html>
